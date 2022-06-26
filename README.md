@@ -4,7 +4,7 @@ This is a list of peer-reviewed representative papers on deep learning dynamics 
 
 # 1. Introduction
 
-The success of deep learning attributes to both deep network architecture and stochastic optimization. Understanding optimization dynamics of neural networks/deep learning dynamics is a key challenge in theoretical foundations of deep learning and a promosing way to further improve empirical success of deep learning. In the context of neural networks, learning dynamical analysis raises new insights and questions beyond conventional convergence analysis of stochastic optimiztion. A large body of related works have been published on top machine learning conferences and journals. However, a lterature review in this line of research is largely missing. It is highly valuable to continuously collect and share these great works. This is exactly the main purpose of the paper list. 
+The success of deep learning attributes to both deep network architecture and stochastic optimization. Understanding optimization dynamics of neural networks/deep learning dynamics is a key challenge in theoretical foundations of deep learning and a promosing way to further improve empirical success of deep learning. We consider learning dynamical analysis as a reductionism approach. Many deep learning techniques can be analyzed and interpreted from a dynamical perspective. In the context of neural networks, learning dynamical analysis provides new insights and theories beyond conventional convergence analysis of stochastic optimiztion. A large body of related works have been published on top machine learning conferences and journals. However, a lterature review in this line of research is largely missing. It is highly valuable to continuously collect and share these great works. This is exactly the main purpose of the paper list. 
 
 The paper list mainly includes four important directions in the context of deep learning:
 
@@ -31,12 +31,17 @@ The paper list mainly includes four important directions in the context of deep 
 - The anisotropic noise in stochastic gradient descent: Its behavior of escaping from sharp minima and regularization effects. In *ICML 2019*. [[pdf](https://arxiv.org/pdf/1803.00195.pdf)]
 - Which algorithmic choices matter at which batch sizes? insights from a noisy quadratic model. In *NeurIPS 2019*. [[pdf](https://proceedings.neurips.cc/paper/2019/file/e0eacd983971634327ae1819ea8b6214-Paper.pdf)]
 - First exit time analysis of stochastic gradient descent under heavy-tailed gradient noise. In *NeurIPS 2019*. [[pdf](https://proceedings.neurips.cc/paper/2019/file/a97da629b098b75c294dffdc3e463904-Paper.pdf)]
+- On the noisy gradient descent that generalizes as sgd. In *ICML 2020*. [[pdf](http://proceedings.mlr.press/v119/wu20c/wu20c.pdf)]
+- An empirical study of stochastic gradient descent with structured covariance noise. In *AISTATS 2020*. [[pdf](http://proceedings.mlr.press/v108/wen20a/wen20a.pdf)]
 - A diffusion theory for deep learning dynamics: Stochastic gradient descent exponentially favors flat minima. In *ICLR 2021*. [[pdf](https://openreview.net/pdf?id=wXgk_iCiYGo)]
+- On the origin of implicit regularization in stochastic gradient descent. In *ICLR 2021*. [[pdf](https://arxiv.org/pdf/2101.12176.pdf)]
+- Positive-negative momentum: Manipulating stochastic gradient noise to improve generalization. In *ICML 2021*. [[pdf](https://arxiv.org/pdf/2103.17182.pdf)]
+- Sgd: The role of implicit regularization, batch-size and multiple-epochs. In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/e64c9ec33f19c7de745bd6b6d1a7a86e-Paper.pdf)]
 - On the validity of modeling sgd with stochastic differential equations (sdes). In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/69f62956429865909921fa916d61c1f8-Paper.pdf)]
 - Shape matters: Understanding the implicit bias of the noise covariance. In *COLT 2021*. [[pdf](http://proceedings.mlr.press/v134/haochen21a/haochen21a.pdf)]
 - Three-stage evolution and fast equilibrium for SGD with non-degenerate critical points. In *ICML 2022*. [[pdf](http://www.personal.psu.edu/zxw14/research/ThreeStageEquilibrium.pdf)]
 
-# 3. Learning Dynmaics of Adaptive Gradient Methods
+# 3. Learning Dynmaics of Adaptive Gradient Methods and Momentum
 
 - Stochastic modified equations and adaptive stochastic gradient algorithms. In *ICML 2017*. [[pdf](http://proceedings.mlr.press/v70/li17f/li17f.pdf)]
 - Escaping saddle points with adaptive gradient methods. In *ICML 2019*. [[pdf](http://proceedings.mlr.press/v97/staib19a/staib19a.pdf)]
@@ -45,8 +50,14 @@ The paper list mainly includes four important directions in the context of deep 
 
 # 4. Learning Dynamics with Training Techniques
 
+- Three mechanisms of weight decay regularization. In *ICLR 2018*. [[pdf](https://arxiv.org/pdf/1810.12281.pdf)]
+- Norm matters: efficient and accurate normalization schemes in deep networks. In *NeurIPS 2018*. [[pdf](https://proceedings.neurips.cc/paper/2018/file/a0160709701140704575d499c997b6ca-Paper.pdf)]
+- Theoretical analysis of auto rate-tuning by batch normalization. In *ICLR 2019*. [[pdf](https://arxiv.org/pdf/1812.03981.pdf)]
 - Toward understanding the importance of noise in training neural networks. In *ICML 2019*. [[pdf](http://proceedings.mlr.press/v97/zhou19d/zhou19d.pdf)]
 - Why gradient clipping accelerates training: A theoretical justification for adaptivity. In *ICLR 2020*. [[pdf](https://arxiv.org/pdf/1905.11881.pdf)]
+- On the training dynamics of deep networks with L2 regularization. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/32fcc8cfe1fa4c77b5c58dafd36d1a98-Paper.pdf)]
+- Reconciling modern deep learning with traditional optimization analyses: The intrinsic learning rat. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/a7453a5f026fb6831d68bdc9cb0edcae-Paper.pdf)]
+- Spherical Motion Dynamics: Learning Dynamics of Normalized Neural Network using SGD and Weight Decay. In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/326a8c055c0d04f5b06544665d8bb3ea-Paper.pdf)]
 
 # 5. Learning Dynamics beyond Standard Training
 
@@ -57,6 +68,8 @@ The paper list mainly includes four important directions in the context of deep 
 - A hitting time analysis of stochastic gradient langevin dynamics. In *COLT 2017*. [[pdf]([http://proceedings.mlr.press/v65/raginsky17a/raginsky17a.pdf](http://proceedings.mlr.press/v65/zhang17b/zhang17b.pdf)]
 - Non-convex learning via stochastic gradient langevin dynamics: a nonasymptotic analysis. In *COLT 2017*. [[pdf](http://proceedings.mlr.press/v65/raginsky17a/raginsky17a.pdf)]
 - Global convergence of langevin dynamics based algorithms for nonconvex optimization. In *NeurIPS 2018*. [[pdf](https://proceedings.neurips.cc/paper/2018/file/9c19a2aa1d84e04b0bd4bc888792bd1e-Paper.pdf)]
+
+
 
 
 
