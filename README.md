@@ -17,6 +17,7 @@ The paper list mainly includes four important directions in the context of deep 
 (4) Learning Dynamics beyond Standard Training (e.g. SGLD, Vicinal Risk Minimization, Private Training, etc.).
 
 
+
 # 2. Learning Dynamics of SGD
 
 - Stochastic gradient descent as approximate bayesian inference. In *JMRL 2017*. [[pdf](https://www.jmlr.org/papers/volume18/17-214/17-214.pdf?ref=https://githubhelp.com)]
@@ -26,27 +27,41 @@ The paper list mainly includes four important directions in the context of deep 
 - An alternative view: When does SGD escape local minima? In *ICML 2018*. [[pdf](http://proceedings.mlr.press/v80/kleinberg18a/kleinberg18a.pdf)]
 - Escaping saddles with stochastic gradients. In *ICML 2018*. [[pdf](http://proceedings.mlr.press/v80/daneshmand18a/daneshmand18a.pdf)]
 - How sgd selects the global minima in over-parameterized learning: A dynamical stability perspective. In *NeurIPS 2018*. [[pdf](https://proceedings.neurips.cc/paper/2018/file/6651526b6fb8f29a00507de6a49ce30f-Paper.pdf)]
+- Neural tangent kernel: Convergence and generalization in neural networks. In *NeurIPS 2018*. [[pdf](https://proceedings.neurips.cc/paper/2018/file/5a4be1fa34e62bb8a6ec6b91d2462f5a-Paper.pdf)]
 - Stochastic modified equations and dynamics of stochastic gradient algorithms i: Mathematical foundations. In *JMLR 2019*. [[pdf](https://www.jmlr.org/papers/volume20/17-526/17-526.pdf)]
 - On the diffusion approximation of nonconvex stochastic gradient descent. In *AMSA 2019*. [[pdf](https://par.nsf.gov/servlets/purl/10199185)]
+- Gradient descent provably optimizes over-parameterized neural networks. In *ICLR 2019*. [[pdf](http://proceedings.mlr.press/v97/du19c/du19c.pdf)]
 - The anisotropic noise in stochastic gradient descent: Its behavior of escaping from sharp minima and regularization effects. In *ICML 2019*. [[pdf](https://arxiv.org/pdf/1803.00195.pdf)]
+- Gradient descent finds global minima of deep neural network. In *ICML 2019*. [[pdf](http://proceedings.mlr.press/v97/du19c/du19c.pdf)]
 - Which algorithmic choices matter at which batch sizes? insights from a noisy quadratic model. In *NeurIPS 2019*. [[pdf](https://proceedings.neurips.cc/paper/2019/file/e0eacd983971634327ae1819ea8b6214-Paper.pdf)]
 - First exit time analysis of stochastic gradient descent under heavy-tailed gradient noise. In *NeurIPS 2019*. [[pdf](https://proceedings.neurips.cc/paper/2019/file/a97da629b098b75c294dffdc3e463904-Paper.pdf)]
+- Wide neural networks of any depth evolve as linear models under gradient descent. In *NeurIPS 2019*. [[pdf](https://proceedings.neurips.cc/paper/2019/file/0d1a9651497a38d8b1c3871c84528bd4-Paper.pdf)]
 - On the noisy gradient descent that generalizes as sgd. In *ICML 2020*. [[pdf](http://proceedings.mlr.press/v119/wu20c/wu20c.pdf)]
 - An empirical study of stochastic gradient descent with structured covariance noise. In *AISTATS 2020*. [[pdf](http://proceedings.mlr.press/v108/wen20a/wen20a.pdf)]
+- The surprising simplicity of the early-time learning dynamics of neural networks. in *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/c6dfc6b7c601ac2978357b7a81e2d7ae-Paper.pdf)]
 - A diffusion theory for deep learning dynamics: Stochastic gradient descent exponentially favors flat minima. In *ICLR 2021*. [[pdf](https://openreview.net/pdf?id=wXgk_iCiYGo)]
 - On the origin of implicit regularization in stochastic gradient descent. In *ICLR 2021*. [[pdf](https://arxiv.org/pdf/2101.12176.pdf)]
 - Positive-negative momentum: Manipulating stochastic gradient noise to improve generalization. In *ICML 2021*. [[pdf](https://arxiv.org/pdf/2103.17182.pdf)]
+- Noise and fluctuation of finite learning rate stochastic gradient descent. In *ICML 2021*. [[pdf](http://proceedings.mlr.press/v139/liu21ad/liu21ad.pdf)]
 - Sgd: The role of implicit regularization, batch-size and multiple-epochs. In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/e64c9ec33f19c7de745bd6b6d1a7a86e-Paper.pdf)]
 - On the validity of modeling sgd with stochastic differential equations (sdes). In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/69f62956429865909921fa916d61c1f8-Paper.pdf)]
+- Label noise sgd provably prefers flat global minimizers. In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/e6af401c28c1790eaef7d55c92ab6ab6-Paper.pdf)]
 - Shape matters: Understanding the implicit bias of the noise covariance. In *COLT 2021*. [[pdf](http://proceedings.mlr.press/v134/haochen21a/haochen21a.pdf)]
-- Three-stage evolution and fast equilibrium for SGD with non-degenerate critical points. In *ICML 2022*. [[pdf](http://www.personal.psu.edu/zxw14/research/ThreeStageEquilibrium.pdf)]
+- Sgd with a constant large learning rate can converge to local maxima. In *ICLR 2022*. [[pdf](https://openreview.net/pdf?id=9XhPLAjjRB)]
+- Strength of minibatch noise in sgd. In *ICLR 2022*. [[pdf](https://arxiv.org/pdf/2102.05375.pdf)]
+- What Happens after SGD Reaches Zero Loss?--A Mathematical Framework. In *ICLR 2022*. [[pdf](https://openreview.net/pdf?id=siCt4xZn5Ve)]
+- Eliminating Sharp Minima from SGD with Truncated Heavy-tailed Noise. In *ICLR 2022*. [[pdf](https://openreview.net/pdf?id=B3Nde6lvab)]
+- Three-stage evolution and fast equilibrium for sgd with non-degenerate critical points. In *ICML 2022*. [[pdf](http://www.personal.psu.edu/zxw14/research/ThreeStageEquilibrium.pdf)]
+- Power-law escape rate of sgd. In *ICML 2022*. [[pdf](https://arxiv.org/pdf/2105.09557.pdf)]
 
-# 3. Learning Dynmaics of Adaptive Gradient Methods and Momentum
+
+# 3. Learning Dynmaics of Adaptive Gradient Methods
 
 - Stochastic modified equations and adaptive stochastic gradient algorithms. In *ICML 2017*. [[pdf](http://proceedings.mlr.press/v70/li17f/li17f.pdf)]
 - Escaping saddle points with adaptive gradient methods. In *ICML 2019*. [[pdf](http://proceedings.mlr.press/v97/staib19a/staib19a.pdf)]
 - Towards theoretically understanding why sgd generalizes better than adam in deep learning. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/f3f27a324736617f20abbf2ffd806f6d-Paper.pdf)]
 - Adaptive inertia: Disentangling the effects of adaptive learning rate and momentum. In *ICML 2022*. [[pdf](https://arxiv.org/pdf/2006.15815.pdf)]
+
 
 # 4. Learning Dynamics with Training Techniques
 
@@ -59,21 +74,11 @@ The paper list mainly includes four important directions in the context of deep 
 - Reconciling modern deep learning with traditional optimization analyses: The intrinsic learning rat. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/a7453a5f026fb6831d68bdc9cb0edcae-Paper.pdf)]
 - Spherical Motion Dynamics: Learning Dynamics of Normalized Neural Network using SGD and Weight Decay. In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/326a8c055c0d04f5b06544665d8bb3ea-Paper.pdf)]
 
+
 # 5. Learning Dynamics beyond Standard Training
 
-## 5.1 SGLD
-
-- Bayesian learning via stochastic gradient langevin dynamics. In *ICML 2011*. [[pdf](https://icml.cc/2011/papers/398_icmlpaper.pdf)]
-- Approximation analysis of stochastic gradient langevin dynamics by using fokker-planck equation and ito process. In *ICML 2014*. [[pdf](http://proceedings.mlr.press/v32/satoa14.pdf)]
-- A hitting time analysis of stochastic gradient langevin dynamics. In *COLT 2017*. [[pdf]([http://proceedings.mlr.press/v65/raginsky17a/raginsky17a.pdf](http://proceedings.mlr.press/v65/zhang17b/zhang17b.pdf)]
-- Non-convex learning via stochastic gradient langevin dynamics: a nonasymptotic analysis. In *COLT 2017*. [[pdf](http://proceedings.mlr.press/v65/raginsky17a/raginsky17a.pdf)]
-- Global convergence of langevin dynamics based algorithms for nonconvex optimization. In *NeurIPS 2018*. [[pdf](https://proceedings.neurips.cc/paper/2018/file/9c19a2aa1d84e04b0bd4bc888792bd1e-Paper.pdf)]
+## 5.1 Beyond Supervised Learning
 
 
-
-
-
-
-
-
-
+- Understanding the role of training regimes in continual learning. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/518a38cc9a0173d0b2dc088166981cf8-Paper.pdf)]
+- Understanding self-supervised learning dynamics without contrastive pairs. In *ICML 2021*. [[pdf](http://proceedings.mlr.press/v139/tian21a/tian21a.pdf)]
