@@ -77,8 +77,6 @@ The paper list mainly includes four important directions in the context of deep 
 
 # 5. Learning Dynamics beyond Standard Training
 
-## 5.1 Beyond Supervised Learning
-
-
 - Understanding the role of training regimes in continual learning. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/518a38cc9a0173d0b2dc088166981cf8-Paper.pdf)]
+- Layer-wise conditioning analysis in exploring the learning dynamics of dnns. In *ECCV 2020*. [[pdf](https://arxiv.org/pdf/2002.10801.pdf)]
 - Understanding self-supervised learning dynamics without contrastive pairs. In *ICML 2021*. [[pdf](http://proceedings.mlr.press/v139/tian21a/tian21a.pdf)]
