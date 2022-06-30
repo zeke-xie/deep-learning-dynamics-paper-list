@@ -12,16 +12,16 @@ The paper list mainly includes four important directions in the context of deep 
 
 (2) Learning Dynmaics of Adaptive Gradient Methods,
 
-(3) Learning Dynamics with Training Techniques (e.g. Weight Decay, Normalization Layers, Gradient Clipping, Noise Injection, etc.),
+(3) Learning Dynamics with Training Techniques (e.g. Weight Decay, Normalization Layers, Gradient Clipping, etc.),
 
-(4) Learning Dynamics beyond Standard Training (e.g. Self-Supervised Learning, Continual Learning, etc.).
+(4) Learning Dynamics beyond Standard Training (e.g. Self-Supervised Learning, Continual Learning, Privacy, etc.).
 
 
 
 # 2. Learning Dynamics of GD and SGD
 
 - Gradient descent only converges to minimizers. In *COLT 2016*. [[pdf](http://proceedings.mlr.press/v49/lee16.pdf)]
-- Stochastic gradient descent as approximate bayesian inference. In *JMRL 2017*. [[pdf](https://www.jmlr.org/papers/volume18/17-214/17-214.pdf?ref=https://githubhelp.com)]
+- Stochastic gradient descent as approximate bayesian inference. In *JMLR 2017*. [[pdf](https://www.jmlr.org/papers/volume18/17-214/17-214.pdf?ref=https://githubhelp.com)]
 - How to escape saddle points efficiently. In *ICML 2017*. [[pdf](http://proceedings.mlr.press/v70/jin17a/jin17a.pdf)]
 - A bayesian perspective on generalization and stochastic gradient descent. In *ICLR 2018*. [[pdf](https://openreview.net/pdf?id=BJij4yg0Z)]
 - Stochastic gradient descent performs variational inference, converges to limit cycles for deep networks. In *ITA 2018*. [[pdf](https://arxiv.org/pdf/1710.11029.pdf)]
