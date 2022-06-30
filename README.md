@@ -14,12 +14,13 @@ The paper list mainly includes four important directions in the context of deep 
 
 (3) Learning Dynamics with Training Techniques (e.g. Weight Decay, Normalization Layers, Gradient Clipping, Noise Injection, etc.),
 
-(4) Learning Dynamics beyond Standard Training (e.g. SGLD, Vicinal Risk Minimization, Private Training, etc.).
+(4) Learning Dynamics beyond Standard Training (e.g. Self-Supervised Learning, Continual Learning, etc.).
 
 
 
 # 2. Learning Dynamics of GD and SGD
 
+- Gradient descent only converges to minimizers. In *COLT 2016*. [[pdf](http://proceedings.mlr.press/v49/lee16.pdf)]
 - Stochastic gradient descent as approximate bayesian inference. In *JMRL 2017*. [[pdf](https://www.jmlr.org/papers/volume18/17-214/17-214.pdf?ref=https://githubhelp.com)]
 - How to escape saddle points efficiently. In *ICML 2017*. [[pdf](http://proceedings.mlr.press/v70/jin17a/jin17a.pdf)]
 - A bayesian perspective on generalization and stochastic gradient descent. In *ICLR 2018*. [[pdf](https://openreview.net/pdf?id=BJij4yg0Z)]
@@ -38,7 +39,8 @@ The paper list mainly includes four important directions in the context of deep 
 - Wide neural networks of any depth evolve as linear models under gradient descent. In *NeurIPS 2019*. [[pdf](https://proceedings.neurips.cc/paper/2019/file/0d1a9651497a38d8b1c3871c84528bd4-Paper.pdf)]
 - On the noisy gradient descent that generalizes as sgd. In *ICML 2020*. [[pdf](http://proceedings.mlr.press/v119/wu20c/wu20c.pdf)]
 - An empirical study of stochastic gradient descent with structured covariance noise. In *AISTATS 2020*. [[pdf](http://proceedings.mlr.press/v108/wen20a/wen20a.pdf)]
-- The surprising simplicity of the early-time learning dynamics of neural networks. in *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/c6dfc6b7c601ac2978357b7a81e2d7ae-Paper.pdf)]
+- The surprising simplicity of the early-time learning dynamics of neural networks. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/c6dfc6b7c601ac2978357b7a81e2d7ae-Paper.pdf)]
+- Dynamical mean-field theory for stochastic gradient descent in Gaussian mixture classification. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/6c81c83c4bd0b58850495f603ab45a93-Paper.pdf)]
 - A diffusion theory for deep learning dynamics: Stochastic gradient descent exponentially favors flat minima. In *ICLR 2021*. [[pdf](https://openreview.net/pdf?id=wXgk_iCiYGo)]
 - On the origin of implicit regularization in stochastic gradient descent. In *ICLR 2021*. [[pdf](https://arxiv.org/pdf/2101.12176.pdf)]
 - Positive-negative momentum: Manipulating stochastic gradient noise to improve generalization. In *ICML 2021*. [[pdf](https://arxiv.org/pdf/2103.17182.pdf)]
@@ -77,6 +79,9 @@ The paper list mainly includes four important directions in the context of deep 
 
 # 5. Learning Dynamics beyond Standard Training
 
+- Dynamics of stochastic gradient descent for two-layer neural networks in the teacher-student setup. In *NeurIPS 2019*. [[pdf](https://proceedings.neurips.cc/paper/2019/file/cab070d53bd0d200746fb852a922064a-Paper.pdf)]
+- On the dynamics of gradient descent for autoencoders. In *AISTAT 2019*. [[pdf](http://proceedings.mlr.press/v89/nguyen19a/nguyen19a.pdf)]
 - Understanding the role of training regimes in continual learning. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/518a38cc9a0173d0b2dc088166981cf8-Paper.pdf)]
 - Layer-wise conditioning analysis in exploring the learning dynamics of dnns. In *ECCV 2020*. [[pdf](https://arxiv.org/pdf/2002.10801.pdf)]
 - Understanding self-supervised learning dynamics without contrastive pairs. In *ICML 2021*. [[pdf](http://proceedings.mlr.press/v139/tian21a/tian21a.pdf)]
+- Differential privacy dynamics of langevin diffusion and noisy gradient descent. In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/7c6c1a7bfde175bed616b39247ccace1-Paper.pdf)]
