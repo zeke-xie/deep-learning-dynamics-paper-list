@@ -8,7 +8,7 @@ The success of deep learning attributes to both deep network architecture and st
 
 The paper list mainly includes four important directions in the context of deep learning:
 
-(1) Learning Dynamics of SGD,
+(1) Learning Dynamics of GD and SGD,
 
 (2) Learning Dynmaics of Adaptive Gradient Methods,
 
@@ -18,7 +18,7 @@ The paper list mainly includes four important directions in the context of deep 
 
 
 
-# 2. Learning Dynamics of SGD
+# 2. Learning Dynamics of GD and SGD
 
 - Stochastic gradient descent as approximate bayesian inference. In *JMRL 2017*. [[pdf](https://www.jmlr.org/papers/volume18/17-214/17-214.pdf?ref=https://githubhelp.com)]
 - How to escape saddle points efficiently. In *ICML 2017*. [[pdf](http://proceedings.mlr.press/v70/jin17a/jin17a.pdf)]
