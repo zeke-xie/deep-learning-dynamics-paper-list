@@ -53,6 +53,7 @@ The paper list mainly includes four important directions in the context of deep 
 - Strength of minibatch noise in sgd. In *ICLR 2022*. [[pdf](https://arxiv.org/pdf/2102.05375.pdf)]
 - What Happens after SGD Reaches Zero Loss?--A Mathematical Framework. In *ICLR 2022*. [[pdf](https://openreview.net/pdf?id=siCt4xZn5Ve)]
 - Eliminating Sharp Minima from SGD with Truncated Heavy-tailed Noise. In *ICLR 2022*. [[pdf](https://openreview.net/pdf?id=B3Nde6lvab)]
+- Neural Network Weights Do Not Converge to Stationary Points: An Invariant Measure Perspective. In *ICML 2022*. [[pdf](https://proceedings.mlr.press/v162/zhang22q/zhang22q.pdf)]
 - Three-stage evolution and fast equilibrium for sgd with non-degenerate critical points. In *ICML 2022*. [[pdf](http://www.personal.psu.edu/zxw14/research/ThreeStageEquilibrium.pdf)]
 - Power-law escape rate of sgd. In *ICML 2022*. [[pdf](https://arxiv.org/pdf/2105.09557.pdf)]
 
