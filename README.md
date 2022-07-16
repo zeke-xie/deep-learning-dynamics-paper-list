@@ -79,6 +79,7 @@ The paper list mainly includes four important directions in the context of deep 
 
 # 5. Learning Dynamics beyond Standard Training
 
+- Variational annealing of gans: A langevin perspective. In *ICML 2019*. [[pdf](http://proceedings.mlr.press/v97/tao19a/tao19a.pdf)]
 - Dynamics of stochastic gradient descent for two-layer neural networks in the teacher-student setup. In *NeurIPS 2019*. [[pdf](https://proceedings.neurips.cc/paper/2019/file/cab070d53bd0d200746fb852a922064a-Paper.pdf)]
 - On the dynamics of gradient descent for autoencoders. In *AISTAT 2019*. [[pdf](http://proceedings.mlr.press/v89/nguyen19a/nguyen19a.pdf)]
 - Understanding the role of training regimes in continual learning. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/518a38cc9a0173d0b2dc088166981cf8-Paper.pdf)]
