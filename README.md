@@ -4,9 +4,9 @@ This is a list of peer-reviewed representative papers on deep learning dynamics 
 
 # 1. Introduction
 
-The success of deep learning attributes to both deep network architecture and stochastic optimization. Understanding optimization dynamics of neural networks/deep learning dynamics is a key challenge in theoretical foundations of deep learning and a promosing way to further improve empirical success of deep learning. We consider learning dynamical analysis as a reductionism approach. Many deep learning techniques can be analyzed and interpreted from a dynamical perspective. In the context of neural networks, learning dynamical analysis provides new insights and theories beyond conventional convergence analysis of stochastic optimiztion. A large body of related works have been published on top machine learning conferences and journals. However, a lterature review in this line of research is largely missing. It is highly valuable to continuously collect and share these great works. This is exactly the main purpose of the paper list. 
+The success of deep learning attributes to both deep network architecture and stochastic optimization. Understanding optimization dynamics of neural networks/deep learning dynamics is a key challenge in theoretical foundations of deep learning and a promosing way to further improve empirical success of deep learning. We consider learning dynamics of optimization as a reductionism approach. Many deep learning techniques can be analyzed and interpreted from a dynamical perspective. In the context of neural networks, learning dynamical analysis provides new insights and theories beyond conventional convergence analysis of stochastic optimiztion. A large body of related works have been published on top machine learning conferences and journals. However, a lterature review in this line of research is largely missing. It is highly valuable to continuously collect and share these great works. This is exactly the main purpose of the paper list. Note that this paper list does not focus on the conventional convergence analysis in optimization and forward dynamics of neural networks.
 
-The paper list mainly includes four important directions in the context of deep learning:
+The paper list mainly covers four important directions:
 
 (1) Learning Dynamics of GD and SGD,
 
@@ -15,7 +15,6 @@ The paper list mainly includes four important directions in the context of deep 
 (3) Learning Dynamics with Training Techniques (e.g. Weight Decay, Normalization Layers, Gradient Clipping, etc.),
 
 (4) Learning Dynamics beyond Standard Training (e.g. Self-Supervised Learning, Continual Learning, Privacy, etc.).
-
 
 
 # 2. Learning Dynamics of GD and SGD
@@ -40,12 +39,14 @@ The paper list mainly includes four important directions in the context of deep 
 - On the noisy gradient descent that generalizes as sgd. In *ICML 2020*. [[pdf](http://proceedings.mlr.press/v119/wu20c/wu20c.pdf)]
 - Stochastic gradient and Langevin processes. In *ICML 2020*. [[pdf](http://proceedings.mlr.press/v119/cheng20e/cheng20e.pdf)]
 - An empirical study of stochastic gradient descent with structured covariance noise. In *AISTATS 2020*. [[pdf](http://proceedings.mlr.press/v108/wen20a/wen20a.pdf)]
+- Stochasticity of deterministic gradient descent: Large learning rate for multiscale objective function. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/1b9a80606d74d3da6db2f1274557e644-Paper.pdf)]
 - The surprising simplicity of the early-time learning dynamics of neural networks. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/c6dfc6b7c601ac2978357b7a81e2d7ae-Paper.pdf)]
 - Dynamical mean-field theory for stochastic gradient descent in Gaussian mixture classification. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/6c81c83c4bd0b58850495f603ab45a93-Paper.pdf)]
 - A diffusion theory for deep learning dynamics: Stochastic gradient descent exponentially favors flat minima. In *ICLR 2021*. [[pdf](https://openreview.net/pdf?id=wXgk_iCiYGo)]
 - On the origin of implicit regularization in stochastic gradient descent. In *ICLR 2021*. [[pdf](https://arxiv.org/pdf/2101.12176.pdf)]
 - Noise and fluctuation of finite learning rate stochastic gradient descent. In *ICML 2021*. [[pdf](http://proceedings.mlr.press/v139/liu21ad/liu21ad.pdf)]
 - The heavy-tail phenomenon in SGD. In *ICML 2021*. [[pdf](http://proceedings.mlr.press/v139/gurbuzbalaban21a/gurbuzbalaban21a.pdf)]
+- Positive-negative momentum: Manipulating stochastic gradient noise to improve generalization. In *ICML 2021*. [[pdf](http://proceedings.mlr.press/v139/xie21h/xie21h.pdf)]
 - Sgd: The role of implicit regularization, batch-size and multiple-epochs. In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/e64c9ec33f19c7de745bd6b6d1a7a86e-Paper.pdf)]
 - On the validity of modeling sgd with stochastic differential equations (sdes). In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/69f62956429865909921fa916d61c1f8-Paper.pdf)]
 - Label noise sgd provably prefers flat global minimizers. In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/e6af401c28c1790eaef7d55c92ab6ab6-Paper.pdf)]
@@ -55,6 +56,7 @@ The paper list mainly includes four important directions in the context of deep 
 - Strength of minibatch noise in sgd. In *ICLR 2022*. [[pdf](https://arxiv.org/pdf/2102.05375.pdf)]
 - What Happens after SGD Reaches Zero Loss?--A Mathematical Framework. In *ICLR 2022*. [[pdf](https://openreview.net/pdf?id=siCt4xZn5Ve)]
 - Eliminating Sharp Minima from SGD with Truncated Heavy-tailed Noise. In *ICLR 2022*. [[pdf](https://openreview.net/pdf?id=B3Nde6lvab)]
+- Large Learning Rate Tames Homogeneity: Convergence and Balancing Effect. In *ICLR 2022*. [[pdf](https://openreview.net/pdf?id=3tbDrs77LJ5)]
 - Neural Network Weights Do Not Converge to Stationary Points: An Invariant Measure Perspective. In *ICML 2022*. [[pdf](https://proceedings.mlr.press/v162/zhang22q/zhang22q.pdf)]
 - Three-stage evolution and fast equilibrium for sgd with non-degenerate critical points. In *ICML 2022*. [[pdf](http://www.personal.psu.edu/zxw14/research/ThreeStageEquilibrium.pdf)]
 - Power-law escape rate of sgd. In *ICML 2022*. [[pdf](https://arxiv.org/pdf/2105.09557.pdf)]
