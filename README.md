@@ -22,6 +22,7 @@ The paper list mainly covers four important directions:
 - Gradient descent only converges to minimizers. In *COLT 2016*. [[pdf](http://proceedings.mlr.press/v49/lee16.pdf)]
 - Stochastic gradient descent as approximate bayesian inference. In *JMLR 2017*. [[pdf](https://www.jmlr.org/papers/volume18/17-214/17-214.pdf?ref=https://githubhelp.com)]
 - How to escape saddle points efficiently. In *ICML 2017*. [[pdf](http://proceedings.mlr.press/v70/jin17a/jin17a.pdf)]
+- Gradient descent can take exponential time to escape saddle points. In *NeurIPS 2017*/ [[pdf](https://proceedings.neurips.cc/paper/2017/file/f79921bbae40a577928b76d2fc3edc2a-Paper.pdf)]
 - A bayesian perspective on generalization and stochastic gradient descent. In *ICLR 2018*. [[pdf](https://openreview.net/pdf?id=BJij4yg0Z)]
 - Stochastic gradient descent performs variational inference, converges to limit cycles for deep networks. In *ITA 2018*. [[pdf](https://arxiv.org/pdf/1710.11029.pdf)]
 - An alternative view: When does SGD escape local minima? In *ICML 2018*. [[pdf](http://proceedings.mlr.press/v80/kleinberg18a/kleinberg18a.pdf)]
