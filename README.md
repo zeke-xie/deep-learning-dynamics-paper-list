@@ -92,3 +92,37 @@ The paper list mainly covers four important directions:
 - Layer-wise conditioning analysis in exploring the learning dynamics of dnns. In *ECCV 2020*. [[pdf](https://arxiv.org/pdf/2002.10801.pdf)]
 - Understanding self-supervised learning dynamics without contrastive pairs. In *ICML 2021*. [[pdf](http://proceedings.mlr.press/v139/tian21a/tian21a.pdf)]
 - Differential privacy dynamics of langevin diffusion and noisy gradient descent. In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/7c6c1a7bfde175bed616b39247ccace1-Paper.pdf)]
+
+# Citing
+
+If you find the paper list useful for your research, you are highly welcomed to cite our two representative papers on this topic. 
+
+[1] ICML 2022 (Oral): Adam dynamics for saddle-point escaping and minima selection.
+
+```
+@InProceedings{xie2022adaptive,
+  title = 	 {Adaptive Inertia: Disentangling the Effects of Adaptive Learning Rate and Momentum},
+  author =       {Xie, Zeke and Wang, Xinrui and Zhang, Huishuai and Sato, Issei and Sugiyama, Masashi},
+  booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
+  pages = 	 {24430--24459},
+  year = 	 {2022}
+  volume = 	 {162},
+  series = 	 {Proceedings of Machine Learning Research}
+}
+```
+
+[2] ICLR 2021: SGD dynamics for minima selection.
+```
+@inproceedings{
+xie2021a,
+title={A Diffusion Theory For Deep Learning Dynamics: Stochastic Gradient Descent Exponentially Favors Flat Minima},
+author={Zeke Xie and Issei Sato and Masashi Sugiyama},
+booktitle={International Conference on Learning Representations},
+year={2021},
+url={https://openreview.net/forum?id=wXgk_iCiYGo}
+}
+```
+
+We hope that our long journal paper based on ICML 2022 "Adaptive Inertia", which will formally review the paper list of deep learning dynamics, will appear in near future. ^_^
+
+
