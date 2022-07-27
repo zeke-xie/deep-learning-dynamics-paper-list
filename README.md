@@ -95,7 +95,7 @@ The paper list mainly covers four important directions:
 
 # Citing
 
-If you find the paper list useful for your research, you are highly welcomed to cite our two representative papers on this topic. 
+If you find the paper list useful for your research, you are highly welcomed to cite our two representative papers on this topic. We hope that our long journal paper based on ICML 2022 "Adaptive Inertia", which formally reviews the paper list of deep learning dynamics, will appear in near future. ^_^
 
 [1] ICML 2022 (Oral): Adam dynamics for saddle-point escaping and minima selection.
 
@@ -123,6 +123,5 @@ url={https://openreview.net/forum?id=wXgk_iCiYGo}
 }
 ```
 
-We hope that our long journal paper based on ICML 2022 "Adaptive Inertia", which will formally review the paper list of deep learning dynamics, will appear in near future. ^_^
 
 
