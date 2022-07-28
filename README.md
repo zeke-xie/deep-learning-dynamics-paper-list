@@ -95,9 +95,9 @@ The paper list mainly covers four important directions:
 
 # Citing
 
-If you find the paper list useful for your research, you are highly welcomed to cite our two representative papers on this topic. We hope that our long journal paper based on ICML 2022 "Adaptive Inertia", which formally reviews the paper list of deep learning dynamics, will appear in near future. ^_^
+If you find the paper list useful for your research, you are highly welcomed to cite our representative work on this topic. We hope that our long journal paper based on ICML 2022 "Adaptive Inertia", which formally reviews the paper list of deep learning dynamics, will appear in near future. ^_^
 
-[1] ICML 2022 (Oral): Adam dynamics for saddle-point escaping and minima selection.
+[1] **ICML 2022 (Oral)**: SGD and Adam dynamics for saddle-point escaping and minima selection.
 
 ```
 @InProceedings{xie2022adaptive,
@@ -108,18 +108,6 @@ If you find the paper list useful for your research, you are highly welcomed to 
   year = 	 {2022}
   volume = 	 {162},
   series = 	 {Proceedings of Machine Learning Research}
-}
-```
-
-[2] ICLR 2021: SGD dynamics for minima selection.
-```
-@inproceedings{
-xie2021a,
-title={A Diffusion Theory For Deep Learning Dynamics: Stochastic Gradient Descent Exponentially Favors Flat Minima},
-author={Zeke Xie and Issei Sato and Masashi Sugiyama},
-booktitle={International Conference on Learning Representations},
-year={2021},
-url={https://openreview.net/forum?id=wXgk_iCiYGo}
 }
 ```
 
