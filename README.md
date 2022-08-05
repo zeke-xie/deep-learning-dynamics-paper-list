@@ -73,6 +73,7 @@ The paper list mainly covers four important directions:
 
 # 4. Learning Dynamics with Training Techniques
 
+- L2 regularization versus batch and weight normalization. In *NeurIPS 2017*. [[pdf](https://arxiv.org/pdf/1706.05350.pdf)]
 - Three mechanisms of weight decay regularization. In *ICLR 2018*. [[pdf](https://arxiv.org/pdf/1810.12281.pdf)]
 - Norm matters: efficient and accurate normalization schemes in deep networks. In *NeurIPS 2018*. [[pdf](https://proceedings.neurips.cc/paper/2018/file/a0160709701140704575d499c997b6ca-Paper.pdf)]
 - Theoretical analysis of auto rate-tuning by batch normalization. In *ICLR 2019*. [[pdf](https://arxiv.org/pdf/1812.03981.pdf)]
@@ -95,7 +96,7 @@ The paper list mainly covers four important directions:
 
 # Citing
 
-If you find the paper list useful for your research, you are highly welcomed to cite our representative work on this topic. We hope that our long journal paper based on ICML 2022 "Adaptive Inertia", which formally reviews the paper list of deep learning dynamics, will appear in near future. ^_^
+If you find the paper list useful for your research, you are highly welcomed to cite our representative work on this topic. We hope that our extended journal paper based on ICML 2022 "Adaptive Inertia", which formally reviews the paper list of deep learning dynamics, will appear in near future.
 
 [1] **ICML 2022 (Oral)**: SGD and Adam dynamics for saddle-point escaping and minima selection.
 
