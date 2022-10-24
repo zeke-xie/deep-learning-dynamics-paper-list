@@ -78,6 +78,7 @@ The paper list mainly covers four important directions:
 - Norm matters: efficient and accurate normalization schemes in deep networks. In *NeurIPS 2018*. [[pdf](https://proceedings.neurips.cc/paper/2018/file/a0160709701140704575d499c997b6ca-Paper.pdf)]
 - Theoretical analysis of auto rate-tuning by batch normalization. In *ICLR 2019*. [[pdf](https://arxiv.org/pdf/1812.03981.pdf)]
 - Toward understanding the importance of noise in training neural networks. In *ICML 2019*. [[pdf](http://proceedings.mlr.press/v97/zhou19d/zhou19d.pdf)]
+- A quantitative analysis of the effect of batch normalization on gradient descent. In *ICML 2019*. [[pdf](https://proceedings.mlr.press/v97/cai19a/cai19a.pdf)]
 - Why gradient clipping accelerates training: A theoretical justification for adaptivity. In *ICLR 2020*. [[pdf](https://arxiv.org/pdf/1905.11881.pdf)]
 - On the training dynamics of deep networks with L2 regularization. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/32fcc8cfe1fa4c77b5c58dafd36d1a98-Paper.pdf)]
 - Reconciling modern deep learning with traditional optimization analyses: The intrinsic learning rat. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/a7453a5f026fb6831d68bdc9cb0edcae-Paper.pdf)]
