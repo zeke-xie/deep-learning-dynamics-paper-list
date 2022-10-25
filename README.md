@@ -61,6 +61,8 @@ The paper list mainly covers four important directions:
 - Neural Network Weights Do Not Converge to Stationary Points: An Invariant Measure Perspective. In *ICML 2022*. [[pdf](https://proceedings.mlr.press/v162/zhang22q/zhang22q.pdf)]
 - Three-stage evolution and fast equilibrium for sgd with non-degenerate critical points. In *ICML 2022*. [[pdf](http://www.personal.psu.edu/zxw14/research/ThreeStageEquilibrium.pdf)]
 - Power-law escape rate of sgd. In *ICML 2022*. [[pdf](https://arxiv.org/pdf/2105.09557.pdf)]
+- High-dimensional limit theorems for SGD: Effective dynamics and critical scaling. In *NeurIPS 2022*. [[pdf](https://arxiv.org/pdf/2206.04030.pdf)]
+- Better SGD using Second-order Momentum. In *NeurIPS 2022*. [[pdf](https://arxiv.org/pdf/2103.03265.pdf)]
 
 
 # 3. Learning Dynmaics of Adaptive Gradient Methods
