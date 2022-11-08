@@ -27,6 +27,7 @@ The paper list mainly covers four important directions:
 - Stochastic gradient descent performs variational inference, converges to limit cycles for deep networks. In *ITA 2018*. [[pdf](https://arxiv.org/pdf/1710.11029.pdf)]
 - An alternative view: When does SGD escape local minima? In *ICML 2018*. [[pdf](http://proceedings.mlr.press/v80/kleinberg18a/kleinberg18a.pdf)]
 - On the optimization of deep networks: Implicit acceleration by overparameterization. In *ICML 2018*. [[pdf](http://proceedings.mlr.press/v80/arora18a/arora18a.pdf)]
+- Comparing Dynamics: Deep Neural Networks versus Glassy Systems. In *ICML 2018*. [[pdf](https://proceedings.mlr.press/v80/baity-jesi18a/baity-jesi18a.pdf)]
 - How sgd selects the global minima in over-parameterized learning: A dynamical stability perspective. In *NeurIPS 2018*. [[pdf](https://proceedings.neurips.cc/paper/2018/file/6651526b6fb8f29a00507de6a49ce30f-Paper.pdf)]
 - Neural tangent kernel: Convergence and generalization in neural networks. In *NeurIPS 2018*. [[pdf](https://proceedings.neurips.cc/paper/2018/file/5a4be1fa34e62bb8a6ec6b91d2462f5a-Paper.pdf)]
 - Stochastic modified equations and dynamics of stochastic gradient algorithms i: Mathematical foundations. In *JMLR 2019*. [[pdf](https://www.jmlr.org/papers/volume20/17-526/17-526.pdf)]
