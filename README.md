@@ -6,7 +6,7 @@ This is a list of peer-reviewed representative papers on deep learning dynamics 
 
 The success of deep learning attributes to both deep network architecture and stochastic optimization. Understanding optimization dynamics of neural networks/deep learning dynamics is a key challenge in theoretical foundations of deep learning and a promising way to further improve empirical success of deep learning. We consider learning dynamics of optimization as a reductionism approach. Many deep learning techniques can be analyzed and interpreted from a dynamical perspective. In the context of neural networks, learning dynamical analysis provides new insights and theories beyond conventional convergence analysis of stochastic optimiztion. A large body of related works have been published on top machine learning conferences and journals. However, a lterature review in this line of research is largely missing. It is highly valuable to continuously collect and share these great works. This is exactly the main purpose of the paper list. Note that this paper list does not focus on the conventional convergence analysis in optimization and forward dynamics of neural networks.
 
-The paper list mainly covers four important directions:
+The paper list covers five main directions:
 
 (1) Learning Dynamics of GD and SGD,
 
