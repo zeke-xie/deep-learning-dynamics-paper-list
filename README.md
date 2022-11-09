@@ -2,7 +2,7 @@
 
 This is a list of peer-reviewed representative papers on deep learning dynamics (optimization dynamics of neural networks). We hope to enjoy the grand adventure of exploring deep learning dynamics with more researchers. Corrections and suggestions are welcomed. 
 
-# 1. Introduction
+# Introduction
 
 The success of deep learning attributes to both deep network architecture and stochastic optimization. Understanding optimization dynamics of neural networks/deep learning dynamics is a key challenge in theoretical foundations of deep learning and a promising way to further improve empirical success of deep learning. We consider learning dynamics of optimization as a reductionism approach. Many deep learning techniques can be analyzed and interpreted from a dynamical perspective. In the context of neural networks, learning dynamical analysis provides new insights and theories beyond conventional convergence analysis of stochastic optimiztion. A large body of related works have been published on top machine learning conferences and journals. However, a lterature review in this line of research is largely missing. It is highly valuable to continuously collect and share these great works. This is exactly the main purpose of the paper list. Note that this paper list does not focus on the conventional convergence analysis in optimization and forward dynamics of neural networks.
 
@@ -10,14 +10,16 @@ The paper list mainly covers four important directions:
 
 (1) Learning Dynamics of GD and SGD,
 
-(2) Learning Dynmaics of Adaptive Gradient Methods,
+(2) Learning Dynamics of Momentum,
 
-(3) Learning Dynamics with Training Techniques (e.g. Weight Decay, Normalization Layers, Gradient Clipping, etc.),
+(3) Learning Dynmaics of Adaptive Gradient Methods,
 
-(4) Learning Dynamics beyond Standard Training (e.g. Self-Supervised Learning, Continual Learning, Privacy, etc.).
+(4) Learning Dynamics with Training Techniques (e.g. Weight Decay, Normalization Layers, Gradient Clipping, etc.),
+
+(5) Learning Dynamics beyond Standard Training (e.g. Self-Supervised Learning, Continual Learning, Privacy, etc.).
 
 
-# 2. Learning Dynamics of GD and SGD
+# 1. Learning Dynamics of GD and SGD
 
 - Gradient descent only converges to minimizers. In *COLT 2016*. [[pdf](http://proceedings.mlr.press/v49/lee16.pdf)]
 - Stochastic gradient descent as approximate bayesian inference. In *JMLR 2017*. [[pdf](https://www.jmlr.org/papers/volume18/17-214/17-214.pdf?ref=https://githubhelp.com)]
@@ -35,7 +37,6 @@ The paper list mainly covers four important directions:
 - Gradient descent provably optimizes over-parameterized neural networks. In *ICLR 2019*. [[pdf](http://proceedings.mlr.press/v97/du19c/du19c.pdf)]
 - The anisotropic noise in stochastic gradient descent: Its behavior of escaping from sharp minima and regularization effects. In *ICML 2019*. [[pdf](https://arxiv.org/pdf/1803.00195.pdf)]
 - Gradient descent finds global minima of deep neural network. In *ICML 2019*. [[pdf](http://proceedings.mlr.press/v97/du19c/du19c.pdf)]
-- Which algorithmic choices matter at which batch sizes? insights from a noisy quadratic model. In *NeurIPS 2019*. [[pdf](https://proceedings.neurips.cc/paper/2019/file/e0eacd983971634327ae1819ea8b6214-Paper.pdf)]
 - First exit time analysis of stochastic gradient descent under heavy-tailed gradient noise. In *NeurIPS 2019*. [[pdf](https://proceedings.neurips.cc/paper/2019/file/a97da629b098b75c294dffdc3e463904-Paper.pdf)]
 - Wide neural networks of any depth evolve as linear models under gradient descent. In *NeurIPS 2019*. [[pdf](https://proceedings.neurips.cc/paper/2019/file/0d1a9651497a38d8b1c3871c84528bd4-Paper.pdf)]
 - On the noisy gradient descent that generalizes as sgd. In *ICML 2020*. [[pdf](http://proceedings.mlr.press/v119/wu20c/wu20c.pdf)]
@@ -48,7 +49,6 @@ The paper list mainly covers four important directions:
 - On the origin of implicit regularization in stochastic gradient descent. In *ICLR 2021*. [[pdf](https://arxiv.org/pdf/2101.12176.pdf)]
 - Noise and fluctuation of finite learning rate stochastic gradient descent. In *ICML 2021*. [[pdf](http://proceedings.mlr.press/v139/liu21ad/liu21ad.pdf)]
 - The heavy-tail phenomenon in SGD. In *ICML 2021*. [[pdf](http://proceedings.mlr.press/v139/gurbuzbalaban21a/gurbuzbalaban21a.pdf)]
-- Positive-negative momentum: Manipulating stochastic gradient noise to improve generalization. In *ICML 2021*. [[pdf](http://proceedings.mlr.press/v139/xie21h/xie21h.pdf)]
 - Sgd: The role of implicit regularization, batch-size and multiple-epochs. In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/e64c9ec33f19c7de745bd6b6d1a7a86e-Paper.pdf)]
 - On the validity of modeling sgd with stochastic differential equations (sdes). In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/69f62956429865909921fa916d61c1f8-Paper.pdf)]
 - Label noise sgd provably prefers flat global minimizers. In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/e6af401c28c1790eaef7d55c92ab6ab6-Paper.pdf)]
@@ -63,8 +63,14 @@ The paper list mainly covers four important directions:
 - Three-stage evolution and fast equilibrium for sgd with non-degenerate critical points. In *ICML 2022*. [[pdf](http://www.personal.psu.edu/zxw14/research/ThreeStageEquilibrium.pdf)]
 - Power-law escape rate of sgd. In *ICML 2022*. [[pdf](https://arxiv.org/pdf/2105.09557.pdf)]
 - High-dimensional limit theorems for SGD: Effective dynamics and critical scaling. In *NeurIPS 2022*. [[pdf](https://arxiv.org/pdf/2206.04030.pdf)]
-- Better SGD using Second-order Momentum. In *NeurIPS 2022*. [[pdf](https://arxiv.org/pdf/2103.03265.pdf)]
+- On Constraints in First-Order Optimization: A View from Non-Smooth Dynamical Systems. In *JMLR 2022*. [[pdf](https://arxiv.org/pdf/2107.08225.pdf)]
 
+# 2. Learning Dynmaics of Momentum
+
+- Which algorithmic choices matter at which batch sizes? insights from a noisy quadratic model. In *NeurIPS 2019*. [[pdf](https://proceedings.neurips.cc/paper/2019/file/e0eacd983971634327ae1819ea8b6214-Paper.pdf)]
+- Positive-negative momentum: Manipulating stochastic gradient noise to improve generalization. In *ICML 2021*. [[pdf](http://proceedings.mlr.press/v139/xie21h/xie21h.pdf)]
+- Better SGD using Second-order Momentum. In *NeurIPS 2022*. [[pdf](https://arxiv.org/pdf/2103.03265.pdf)]
+- Optimization with Momentum: Dynamical, Control-Theoretic, and Symplectic Perspectives. In *JMLR 2022*. [[pdf](https://arxiv.org/pdf/2002.12493.pdf)]
 
 # 3. Learning Dynmaics of Adaptive Gradient Methods
 
