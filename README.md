@@ -41,6 +41,7 @@ The paper list mainly covers four important directions:
 - Wide neural networks of any depth evolve as linear models under gradient descent. In *NeurIPS 2019*. [[pdf](https://proceedings.neurips.cc/paper/2019/file/0d1a9651497a38d8b1c3871c84528bd4-Paper.pdf)]
 - On the noisy gradient descent that generalizes as sgd. In *ICML 2020*. [[pdf](http://proceedings.mlr.press/v119/wu20c/wu20c.pdf)]
 - Stochastic gradient and Langevin processes. In *ICML 2020*. [[pdf](http://proceedings.mlr.press/v119/cheng20e/cheng20e.pdf)]
+- Continuous-time Lower Bounds for Gradient-based Algorithm. In *ICML 2020*. [[pdf](http://proceedings.mlr.press/v119/muehlebach20a/muehlebach20a.pdf)]
 - An empirical study of stochastic gradient descent with structured covariance noise. In *AISTATS 2020*. [[pdf](http://proceedings.mlr.press/v108/wen20a/wen20a.pdf)]
 - Stochasticity of deterministic gradient descent: Large learning rate for multiscale objective function. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/1b9a80606d74d3da6db2f1274557e644-Paper.pdf)]
 - The surprising simplicity of the early-time learning dynamics of neural networks. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/c6dfc6b7c601ac2978357b7a81e2d7ae-Paper.pdf)]
@@ -67,6 +68,7 @@ The paper list mainly covers four important directions:
 
 # 2. Learning Dynmaics of Momentum
 
+- A Dynamical Systems Perspective on Nesterov Acceleration. In *ICML 2019*. [[pdf](http://proceedings.mlr.press/v97/muehlebach19a/muehlebach19a.pdf)]
 - Which algorithmic choices matter at which batch sizes? insights from a noisy quadratic model. In *NeurIPS 2019*. [[pdf](https://proceedings.neurips.cc/paper/2019/file/e0eacd983971634327ae1819ea8b6214-Paper.pdf)]
 - Positive-negative momentum: Manipulating stochastic gradient noise to improve generalization. In *ICML 2021*. [[pdf](http://proceedings.mlr.press/v139/xie21h/xie21h.pdf)]
 - Better SGD using Second-order Momentum. In *NeurIPS 2022*. [[pdf](https://arxiv.org/pdf/2103.03265.pdf)]
