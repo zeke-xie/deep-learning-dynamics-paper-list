@@ -1,6 +1,6 @@
 # deep-learning-dynamics-paper-list
 
-This is a list of peer-reviewed representative papers on deep learning dynamics (optimization dynamics of neural networks). We hope to enjoy the grand adventure of exploring deep learning dynamics with more researchers. Corrections and suggestions are welcomed. 
+This is a list of peer-reviewed representative papers on deep learning dynamics (training/optimization dynamics of neural networks). We hope to enjoy the grand adventure of exploring deep learning dynamics with more researchers. Corrections and suggestions are welcomed. 
 
 # Introduction
 
@@ -69,14 +69,17 @@ The paper list covers five main directions:
 - Chaotic dynamics are intrinsic to neural networks training with SGD. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=ffy-h0GKZbK)]
 - Dynamics of SGD with Stochastic Polyak Stepsizes. [[pdf](https://openreview.net/pdf?id=lUyAaz-iA4u)]
 - Toward Equation of Motion for Deep Neural Networks: Continuous-time Gradient Descent and Discretization Error Analysis. In *NeurIPS 2022*. [[pdf](https://openreview.net/forum?id=qq84D17BPu)]
+- Gradient flow dynamics of shallow ReLU networks for square loss and orthogonal inputs. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=L74c-iUxQ1I)]
 
 # 2. Learning Dynmaics of Momentum
 
 - A Dynamical Systems Perspective on Nesterov Acceleration. In *ICML 2019*. [[pdf](http://proceedings.mlr.press/v97/muehlebach19a/muehlebach19a.pdf)]
 - Which algorithmic choices matter at which batch sizes? insights from a noisy quadratic model. In *NeurIPS 2019*. [[pdf](https://proceedings.neurips.cc/paper/2019/file/e0eacd983971634327ae1819ea8b6214-Paper.pdf)]
 - Positive-negative momentum: Manipulating stochastic gradient noise to improve generalization. In *ICML 2021*. [[pdf](http://proceedings.mlr.press/v139/xie21h/xie21h.pdf)]
-- Better SGD using Second-order Momentum. In *NeurIPS 2022*. [[pdf](https://arxiv.org/pdf/2103.03265.pdf)]
 - Optimization with Momentum: Dynamical, Control-Theoretic, and Symplectic Perspectives. In *JMLR 2022*. [[pdf](https://arxiv.org/pdf/2002.12493.pdf)]
+- Better SGD using Second-order Momentum. In *NeurIPS 2022*. [[pdf](https://arxiv.org/pdf/2103.03265.pdf)]
+- Trajectory of Mini-Batch Momentum: Batch Size Saturation and Convergence in High Dimensions. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=z9poo2GhOh6)]
+
 
 # 3. Learning Dynmaics of Adaptive Gradient Methods
 
@@ -110,6 +113,8 @@ The paper list covers five main directions:
 - Understanding self-supervised learning dynamics without contrastive pairs. In *ICML 2021*. [[pdf](http://proceedings.mlr.press/v139/tian21a/tian21a.pdf)]
 - Differential privacy dynamics of langevin diffusion and noisy gradient descent. In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/7c6c1a7bfde175bed616b39247ccace1-Paper.pdf)]
 - Memorization Without Overfitting: Analyzing the Training Dynamics of Large Language Models. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=ffy-h0GKZbK)]
+- Deep Active Learning by Leveraging Training Dynamics. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=aJ5xc1QB7EX)]
+- Learning dynamics of deep linear networks with multiple pathways. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=4B7azgAbzda)]
 
 # Citing
 
