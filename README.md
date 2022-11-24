@@ -25,6 +25,7 @@ The paper list covers five main directions:
 - Stochastic gradient descent as approximate bayesian inference. In *JMLR 2017*. [[pdf](https://www.jmlr.org/papers/volume18/17-214/17-214.pdf?ref=https://githubhelp.com)]
 - How to escape saddle points efficiently. In *ICML 2017*. [[pdf](http://proceedings.mlr.press/v70/jin17a/jin17a.pdf)]
 - Gradient descent can take exponential time to escape saddle points. In *NeurIPS 2017*/ [[pdf](https://proceedings.neurips.cc/paper/2017/file/f79921bbae40a577928b76d2fc3edc2a-Paper.pdf)]
+- Gradient descent learns linear dynamical systems. In *JMLR 2018*. [[pdf](https://www.jmlr.org/papers/volume19/16-465/16-465.pdf)]
 - A bayesian perspective on generalization and stochastic gradient descent. In *ICLR 2018*. [[pdf](https://openreview.net/pdf?id=BJij4yg0Z)]
 - Stochastic gradient descent performs variational inference, converges to limit cycles for deep networks. In *ITA 2018*. [[pdf](https://arxiv.org/pdf/1710.11029.pdf)]
 - An alternative view: When does SGD escape local minima? In *ICML 2018*. [[pdf](http://proceedings.mlr.press/v80/kleinberg18a/kleinberg18a.pdf)]
@@ -63,8 +64,11 @@ The paper list covers five main directions:
 - Neural Network Weights Do Not Converge to Stationary Points: An Invariant Measure Perspective. In *ICML 2022*. [[pdf](https://proceedings.mlr.press/v162/zhang22q/zhang22q.pdf)]
 - Three-stage evolution and fast equilibrium for sgd with non-degenerate critical points. In *ICML 2022*. [[pdf](http://www.personal.psu.edu/zxw14/research/ThreeStageEquilibrium.pdf)]
 - Power-law escape rate of sgd. In *ICML 2022*. [[pdf](https://arxiv.org/pdf/2105.09557.pdf)]
-- High-dimensional limit theorems for SGD: Effective dynamics and critical scaling. In *NeurIPS 2022*. [[pdf](https://arxiv.org/pdf/2206.04030.pdf)]
 - On Constraints in First-Order Optimization: A View from Non-Smooth Dynamical Systems. In *JMLR 2022*. [[pdf](https://arxiv.org/pdf/2107.08225.pdf)]
+- High-dimensional limit theorems for SGD: Effective dynamics and critical scaling. In *NeurIPS 2022*. [[pdf](https://arxiv.org/pdf/2206.04030.pdf)]
+- Chaotic dynamics are intrinsic to neural networks training with SGD. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=ffy-h0GKZbK)]
+- Dynamics of SGD with Stochastic Polyak Stepsizes. [[pdf](https://openreview.net/pdf?id=lUyAaz-iA4u)]
+- Toward Equation of Motion for Deep Neural Networks: Continuous-time Gradient Descent and Discretization Error Analysis. In *NeurIPS 2022*. [[pdf](https://openreview.net/forum?id=qq84D17BPu)]
 
 # 2. Learning Dynmaics of Momentum
 
@@ -81,7 +85,6 @@ The paper list covers five main directions:
 - Towards theoretically understanding why sgd generalizes better than adam in deep learning. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/f3f27a324736617f20abbf2ffd806f6d-Paper.pdf)]
 - Adaptive inertia: Disentangling the effects of adaptive learning rate and momentum. In *ICML 2022*. [[pdf](https://arxiv.org/pdf/2006.15815.pdf)]
 
-
 # 4. Learning Dynamics with Training Techniques
 
 - L2 regularization versus batch and weight normalization. In *NeurIPS 2017*. [[pdf](https://arxiv.org/pdf/1706.05350.pdf)]
@@ -94,6 +97,7 @@ The paper list covers five main directions:
 - On the training dynamics of deep networks with L2 regularization. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/32fcc8cfe1fa4c77b5c58dafd36d1a98-Paper.pdf)]
 - Reconciling modern deep learning with traditional optimization analyses: The intrinsic learning rat. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/a7453a5f026fb6831d68bdc9cb0edcae-Paper.pdf)]
 - Spherical Motion Dynamics: Learning Dynamics of Normalized Neural Network using SGD and Weight Decay. In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/326a8c055c0d04f5b06544665d8bb3ea-Paper.pdf)]
+- Fast Mixing of Stochastic Gradient Descent with Normalization and Weight Decay. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=sof8l4cki9)]
 
 
 # 5. Learning Dynamics beyond Standard Training
@@ -105,6 +109,7 @@ The paper list covers five main directions:
 - Layer-wise conditioning analysis in exploring the learning dynamics of dnns. In *ECCV 2020*. [[pdf](https://arxiv.org/pdf/2002.10801.pdf)]
 - Understanding self-supervised learning dynamics without contrastive pairs. In *ICML 2021*. [[pdf](http://proceedings.mlr.press/v139/tian21a/tian21a.pdf)]
 - Differential privacy dynamics of langevin diffusion and noisy gradient descent. In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/7c6c1a7bfde175bed616b39247ccace1-Paper.pdf)]
+- Memorization Without Overfitting: Analyzing the Training Dynamics of Large Language Models. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=ffy-h0GKZbK)]
 
 # Citing
 
