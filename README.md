@@ -71,6 +71,8 @@ The paper list covers five main directions:
 - Toward Equation of Motion for Deep Neural Networks: Continuous-time Gradient Descent and Discretization Error Analysis. In *NeurIPS 2022*. [[pdf](https://openreview.net/forum?id=qq84D17BPu)]
 - Gradient flow dynamics of shallow ReLU networks for square loss and orthogonal inputs. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=L74c-iUxQ1I)]
 - SGD with Large Step Sizes Learns Sparse Features. In *ICML 2023*. [pdf](https://openreview.net/pdf?id=DnTuz0ziwN)]
+- Phase diagram of early training dynamics in deep neural networks: effect of the learning rate, depth, and width. In *NeurIPS 2023*. [[pdf](https://openreview.net/pdf?id=Al9yglQGKj)]
+- 
 
 # 2. Learning Dynmaics of Momentum
 
@@ -119,6 +121,10 @@ The paper list covers five main directions:
 - Learning dynamics of deep linear networks with multiple pathways. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=4B7azgAbzda)]
 - Towards a Better Understanding of Representation Dynamics under TD-learning. In *ICML 2023*. [pdf](https://openreview.net/pdf?id=UOgyaswHo7)]
 - A Theoretical Analysis of the Learning Dynamics under Class Imbalance. In *ICML 2023*. [pdf](https://openreview.net/pdf?id=jNpmHrHVWZ)]
+- Understanding Multi-phase Optimization Dynamics and Rich Nonlinear Behaviors of ReLU Networks. In *NeurIPS 2023*. [[pdf](https://openreview.net/pdf?id=konBXvt2iS)]
+- CORNN: Convex optimization of recurrent neural networks for rapid inference of neural dynamics. In *NeurIPS 2023*. [[pdf](https://openreview.net/pdf?id=GGIA1p9fDT)]
+- Mean-field Langevin dynamics: Time-space discretization, stochastic gradient, and variance reduction. In *NeurIPS 2023*. [[pdf](https://openreview.net/pdf?id=9STYRIVx6u)]
+- Loss Dynamics of Temporal Difference Reinforcement Learning. In *NeurIPS 2023*. [[pdf](https://openreview.net/pdf?id=Tj0eXVPnRX)]
 
 
 # Citing
