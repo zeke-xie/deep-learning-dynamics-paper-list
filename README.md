@@ -70,6 +70,7 @@ The paper list covers five main directions:
 - Dynamics of SGD with Stochastic Polyak Stepsizes. [[pdf](https://openreview.net/pdf?id=lUyAaz-iA4u)]
 - Toward Equation of Motion for Deep Neural Networks: Continuous-time Gradient Descent and Discretization Error Analysis. In *NeurIPS 2022*. [[pdf](https://openreview.net/forum?id=qq84D17BPu)]
 - Gradient flow dynamics of shallow ReLU networks for square loss and orthogonal inputs. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=L74c-iUxQ1I)]
+- SGD with Large Step Sizes Learns Sparse Features. In *ICML 2023*. [pdf](https://openreview.net/pdf?id=DnTuz0ziwN)]
 
 # 2. Learning Dynmaics of Momentum
 
@@ -116,10 +117,13 @@ The paper list covers five main directions:
 - Memorization Without Overfitting: Analyzing the Training Dynamics of Large Language Models. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=ffy-h0GKZbK)]
 - Deep Active Learning by Leveraging Training Dynamics. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=aJ5xc1QB7EX)]
 - Learning dynamics of deep linear networks with multiple pathways. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=4B7azgAbzda)]
+- Towards a Better Understanding of Representation Dynamics under TD-learning. In *ICML 2023*. [pdf](https://openreview.net/pdf?id=UOgyaswHo7)]
+- A Theoretical Analysis of the Learning Dynamics under Class Imbalance. In *ICML 2023*. [pdf](https://openreview.net/pdf?id=jNpmHrHVWZ)]
+
 
 # Citing
 
-If you find the paper list useful for your research, you are highly welcomed to cite our representative work on this topic. We hope that our extended journal paper based on ICML 2022 "Adaptive Inertia", which formally reviews the paper list of deep learning dynamics, will appear in near future.
+If you find the paper list useful for your research, you are highly welcomed to cite our representative work on this topic. We hope that our extended journal paper based on our previous work which formally reviews the paper list of deep learning dynamics, will appear in near future.
 
 [1] **ICML 2022 (Oral)**: SGD and Adam dynamics for saddle-point escaping and minima selection.
 
