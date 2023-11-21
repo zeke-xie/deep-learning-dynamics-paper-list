@@ -72,7 +72,7 @@ The paper list covers five main directions:
 - Gradient flow dynamics of shallow ReLU networks for square loss and orthogonal inputs. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=L74c-iUxQ1I)]
 - SGD with Large Step Sizes Learns Sparse Features. In *ICML 2023*. [pdf](https://openreview.net/pdf?id=DnTuz0ziwN)]
 - Phase diagram of early training dynamics in deep neural networks: effect of the learning rate, depth, and width. In *NeurIPS 2023*. [[pdf](https://openreview.net/pdf?id=Al9yglQGKj)]
-- 
+
 
 # 2. Learning Dynmaics of Momentum
 
@@ -125,6 +125,7 @@ The paper list covers five main directions:
 - CORNN: Convex optimization of recurrent neural networks for rapid inference of neural dynamics. In *NeurIPS 2023*. [[pdf](https://openreview.net/pdf?id=GGIA1p9fDT)]
 - Mean-field Langevin dynamics: Time-space discretization, stochastic gradient, and variance reduction. In *NeurIPS 2023*. [[pdf](https://openreview.net/pdf?id=9STYRIVx6u)]
 - Loss Dynamics of Temporal Difference Reinforcement Learning. In *NeurIPS 2023*. [[pdf](https://openreview.net/pdf?id=Tj0eXVPnRX)]
+- A Dynamical System View of Langevin-Based Non-Convex Sampling. In *NeurIPS 2023*. [[pdf](https://openreview.net/pdf?id=aRBa0lSxEB)]
 
 
 # Citing
