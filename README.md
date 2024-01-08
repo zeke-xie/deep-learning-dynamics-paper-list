@@ -130,9 +130,24 @@ The paper list covers five main directions:
 
 # Citing
 
-If you find the paper list useful for your research, you are highly welcomed to cite our representative work on this topic. We hope that our extended journal paper based on our previous work which formally reviews the paper list of deep learning dynamics, will appear in near future.
+If you find the paper list useful for your research, you are highly welcomed to cite our representative works on this topic！
 
-[1] **ICML 2022 (Oral)**: SGD and Adam dynamics for saddle-point escaping and minima selection.
+They covered important relate works and touched core challenges in this line of research.
+
+
+[1] **ICLR 2021**: SGD dynamics for flat minima selection.
+```
+@inproceedings{
+  xie2021diffusion,
+  title={A Diffusion Theory For Deep Learning Dynamics: Stochastic Gradient Descent Exponentially Favors Flat Minima},
+  author={Zeke Xie and Issei Sato and Masashi Sugiyama},
+  booktitle={International Conference on Learning Representations},
+  year={2021},
+  url={https://openreview.net/forum?id=wXgk_iCiYGo}
+}
+```
+
+[2] **ICML 2022 (Oral)**: SGD and Adam dynamics for saddle-point escaping and minima selection.
 
 ```
 @InProceedings{xie2022adaptive,
