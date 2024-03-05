@@ -72,7 +72,7 @@ The paper list covers five main directions:
 - Gradient flow dynamics of shallow ReLU networks for square loss and orthogonal inputs. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=L74c-iUxQ1I)]
 - SGD with Large Step Sizes Learns Sparse Features. In *ICML 2023*. [pdf](https://openreview.net/pdf?id=DnTuz0ziwN)]
 - Phase diagram of early training dynamics in deep neural networks: effect of the learning rate, depth, and width. In *NeurIPS 2023*. [[pdf](https://openreview.net/pdf?id=Al9yglQGKj)]
-
+- On the Overlooked Structure of Stochastic Gradients. In *NeurIPS 2023*. [[pdf](https://proceedings.neurips.cc/paper_files/paper/2023/file/d0b2eda0386f477ab14d7e181e16c899-Paper-Conference.pdf)]
 
 # 2. Learning Dynmaics of Momentum
 
@@ -105,6 +105,7 @@ The paper list covers five main directions:
 - Reconciling modern deep learning with traditional optimization analyses: The intrinsic learning rat. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/a7453a5f026fb6831d68bdc9cb0edcae-Paper.pdf)]
 - Spherical Motion Dynamics: Learning Dynamics of Normalized Neural Network using SGD and Weight Decay. In *NeurIPS 2021*. [[pdf](https://proceedings.neurips.cc/paper/2021/file/326a8c055c0d04f5b06544665d8bb3ea-Paper.pdf)]
 - Fast Mixing of Stochastic Gradient Descent with Normalization and Weight Decay. In *NeurIPS 2022*. [[pdf](https://openreview.net/pdf?id=sof8l4cki9)]
+- On the Overlooked Pitfalls of Weight Decay and How to Mitigate Them: A Gradient-Norm Perspective. In *NeurIPS 2023*. [[pdf](https://proceedings.neurips.cc/paper_files/paper/2023/file/040d3b6af368bf71f952c18da5713b48-Paper-Conference.pdf)]
 
 
 # 5. Learning Dynamics beyond Standard Training
