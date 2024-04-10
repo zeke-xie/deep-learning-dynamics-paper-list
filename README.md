@@ -89,8 +89,9 @@ The paper list covers five main directions:
 - Stochastic modified equations and adaptive stochastic gradient algorithms. In *ICML 2017*. [[pdf](http://proceedings.mlr.press/v70/li17f/li17f.pdf)]
 - Escaping saddle points with adaptive gradient methods. In *ICML 2019*. [[pdf](http://proceedings.mlr.press/v97/staib19a/staib19a.pdf)]
 - Towards theoretically understanding why sgd generalizes better than adam in deep learning. In *NeurIPS 2020*. [[pdf](https://proceedings.neurips.cc/paper/2020/file/f3f27a324736617f20abbf2ffd806f6d-Paper.pdf)]
-- Adaptive inertia: Disentangling the effects of adaptive learning rate and momentum. In *ICML 2022*. [[pdf](https://arxiv.org/pdf/2006.15815.pdf)]
+- Adaptive Inertia: Disentangling the effects of adaptive learning rate and momentum. In *ICML 2022*. [[pdf](https://arxiv.org/pdf/2006.15815.pdf)]
 - Noise Is Not the Main Factor Behind the Gap Between Sgd and Adam on Transformers, But Sign Descent Might Be. In *ICLR 2023*. [[pdf](https://openreview.net/pdf?id=a65YK0cqH8g)]
+- How Does Adaptive Optimization Impact Local Neural Network Geometry?. In *NeurIPS 2023*. [[pdf](https://openreview.net/pdf?id=gIG8LvTLuc)]
 
 # 4. Learning Dynamics with Training Techniques
 
@@ -133,7 +134,7 @@ The paper list covers five main directions:
 
 If you find the paper list useful for your research, you are highly welcomed to cite our representative works on this topic！
 
-They covered important relate works and touched core challenges in this line of research.
+They covered important related works and touched fundamental issues in this line of research.
 
 
 [1] **ICLR 2021**: SGD dynamics for flat minima selection.
